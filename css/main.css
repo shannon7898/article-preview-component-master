@@ -1,6 +1,7 @@
 body {
     background-color: #9eafc2;
     font-size: 13px;
+    display: flex;
 }
 
 .attribution { 
