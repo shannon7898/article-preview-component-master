@@ -12,3 +12,14 @@ body {
     color: #3e52a3; 
 }
 
+.main {
+    border-radius: 10%;
+    background-color: #3e52a3;
+    height: 80vh;
+}
+
+img {
+    width: 50vh;
+    height: auto;
+    text-align: center;
+}
