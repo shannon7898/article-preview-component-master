@@ -1,7 +1,7 @@
 body {
     background-color: #9eafc2;
     font-size: 13px;
-    display: flex;
+    display: grid;
 }
 
 .attribution { 
@@ -13,13 +13,21 @@ body {
 }
 
 .main {
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: #3e52a3;
-    height: 80vh;
 }
 
-img {
-    width: 50vh;
-    height: auto;
-    text-align: center;
+@media screen and (max-width: 500px) {
+    .crop {
+        width: 359px;
+        height: 250px;
+        overflow: hidden;
+    }
+    
+    .crop img {
+        width: 400px;
+        height: 300px;
+        margin: 0 0 0 0;
+    }
 }
+
