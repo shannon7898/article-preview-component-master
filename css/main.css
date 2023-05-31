@@ -18,26 +18,16 @@ body {
     background-color: #3e52a3;
     display: flex;
     flex-wrap: wrap;
-
     text-align: center;
 }
 
-@media screen and (max-width: 800px) {
-    .crop {
-        width: 359px;
-        height: 250px;
-        overflow: hidden;
-    }
-    
-    .crop img {
-        width: 400px;
-        height: 300px;
-    }    
+.crop {
+    width: 359px;
+    height: 250px;
+    overflow: hidden;
 }
 
-@media screen and (max-width: 800px) {
-    .crop img, .info-con {
-        flex: 100%;
-    }
-}
-
+.crop img {
+    width: 400px;
+    height: 300px;
+}    
